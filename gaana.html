@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="gaana.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+  integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+  integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+  integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid main">
+
+      <div class="line">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Gaana_%28music_streaming_service%29_logo.png/1200px-Gaana_%28music_streaming_service%29_logo.png"
+        width="9%" height="9%" alt="">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <form class="d-flex search">
+            <div class="srch">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <input class="form-control me-2 search sr" type="search" placeholder="Search Artists,Songs,Albums"
+              aria-label="Search">
+
+          </form>
+          <button class="button1">
+            Welcome Offer: 1 month trial @1$
+          </button>
+          <button class="button2">
+            Get Gaana Plus
+          </button>
+          <button class="btn button3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Login
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Login with</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <div class="r">
+                      <button type="submit" class="btn" style="color: white;">Login</button>
+                    </div>
+                  </form>
+                </div>
+                <!-- <div class="modal-footer r">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Login</button>
+        
+      </div> -->
+              </div>
+            </div>
+          </div>
+          <button class="btn button3" data-bs-toggle="modal" data-bs-target="#registerModal">
+            Register
+          </button>
+           <!-- Modal -->
+           <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+           aria-hidden="true">
+           <div class="modal-dialog">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <h5 class="modal-title" id="exampleModalLabel">Register with</h5>
+                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body">
+                 <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Username</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                   <div class="mb-3">
+                     <label for="exampleInputEmail1" class="form-label">Email address</label>
+                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                   </div>
+                   <div class="mb-3">
+                     <label for="exampleInputPassword1" class="form-label">Password</label>
+                     <input type="password" class="form-control" id="exampleInputPassword1">
+                   </div>
+                   <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Mobile Number</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your mobile number with anyone else.</div>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Female
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                     Male
+                    </label>
+                  </div>
+                  
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">DOB</label>
+                    <input type="date" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+
+                   <div class="r">
+                     <button type="submit" class="btn" style="color: white;">Submit</button>
+                   </div>
+                 </form>
+               </div>
+               <!-- <div class="modal-footer r">
+       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Login</button>
+       
+     </div> -->
+             </div>
+           </div>
+         </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="main1">
+    <h6>All</h6>
+    <h6>Tranding Songs</h6>
+    <h6>New Songs</h6>
+    <h6>Old Songs</h6>
+    <h6>Album</h6>
+    <h6>Radio</h6>
+    <h6>Podcast</h6>
+    <h6>My Music</h6>
+  </div>
+
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://a10.gaanacdn.com/gn_img/showcase/YoEWlabzXB/oEWlm5XbzX/size_m_1722022530.webp"
+          class="d-block w-100" width="10px" height="450px" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://a10.gaanacdn.com/gn_img/showcase/4Z9bqo3yQn/Z9bqmvobyQ/size_m_1712911965.webp"
+          class="d-block w-100" width="10px" height="450px" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://a10.gaanacdn.com/gn_img/showcase/g4w3vr3jJB/g4w3vzo3jJ/size_m_1722014416.webp"
+          class="d-block w-100" width="10px" height="450px" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://a10.gaanacdn.com/gn_img/showcase/ZaP374RWDy/aP371mvbDy/size_m_1703075035.webp"
+          class="d-block w-100" width="10px" height="450px" alt="...">
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="long">
+    <img src="https://a10.gaanacdn.com/images/section/Web-Home-Rs1-new_1719768045.jpg" width="1310px" alt="">
+  </div>
+
+  <h3 class="top">
+    New Releases
+  </h3>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2">
+        <div class="" style="width: 12rem;">
+          <img src="https://a10.gaanacdn.com/gn_img/albums/6Zxb2r7b9w/xb2qE5EOW9/size_m.jpg" class="card-img-top"
+            alt="...">
+          <h6 class="Hauli">Hauli Hauli
+            <h6 class="malik">(From "Khel Khel Mein")</h6>
+          </h6>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="" style="width: 12rem;">
+          <img src="https://a10.gaanacdn.com/gn_img/albums/Bp1bAynb02/1bALqG6gW0/size_m_1719338539.jpg"
+            class="card-img-top" alt="...">
+          <h6 class="Hauli">Head Rusha</h6>
+          <h6 class="malik">Channel Tres
+          </h6>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="" style="width: 12rem;">
+          <img src="https://a10.gaanacdn.com/gn_img/albums/lJvKa56KDV/vKa5OknkKD/size_m.jpg" class="card-img-top"
+            alt="...">
+          <h6 class="Hauli">Forever</h6>
+          <h6 class="malik">Bon Jovi
+          </h6>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="" style="width: 12rem;">
+          <img src="https://a10.gaanacdn.com/gn_img/albums/jBr3gybR1m/r3gerl49bR/size_m_1719911865.jpg"
+            class="card-img-top" alt="...">
+          <h6 class="Hauli">Tauba Tauba</h6>
+          <h6 class="malik">(From "Bad Newz")
+          </h6>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="" style="width: 12rem;">
+          <img src="https://a10.gaanacdn.com/gn_img/albums/R7vKXr6Wmr/vKXrRdQQWm/size_m_1721972686.webp"
+            class="card-img-top" alt="...">
+          <h6 class="Hauli">Tera main intezaar
+          </h6>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="" style="width: 12rem;">
+          <img src="https://a10.gaanacdn.com/gn_img/albums/ogNWkDbmXJ/NWklPMmvbm/size_m_1721299739.jpg"
+            class="card-img-top" alt="...">
+          <h6 class="Hauli">Bad Newz</h6>
+          <h6 class="malik"> Anu malik,Vishal Mishra
+          </h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <h3 class="top">
+    Featured Artists
+  </h3>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2">
+        <img src="https://a10.gaanacdn.com/gn_img/artists/Rz4W87v3xD/Rz4W8ppWxD/size_l_1716893509.webp"
+          class="rounded-circle circle-image" alt="">
+        <p class="pp">Neha Kakkar</p>
+      </div>
+
+      <div class="col-md-2">
+        <img src="https://a10.gaanacdn.com/gn_img/artists/a7LWBzWzXA/7LWBLgNKzX/size_m_1716897460.jpg"
+          class="rounded-circle circle-image" alt="">
+        <p class="pp">Justin Bieber</p>
+      </div>
+
+      <div class="col-md-2">
+        <img src="https://a10.gaanacdn.com/gn_img/artists/JD2KJAbOLw/D2KJEvDAbO/size_l_1717588280.webp"
+          class="rounded-circle circle-image" alt="">
+        <p class="pp">Dua Lipa</p>
+      </div>
+
+      <div class="col-md-2">
+        <img src="https://a10.gaanacdn.com/gn_img/artists/jBr3gybR1m/Br3g9dV9bR/size_m_1567931604.webp"
+          class="rounded-circle circle-image" alt="">
+        <p class="pp">Suga</p>
+      </div>
+
+      <div class="col-md-2">
+        <img src="https://a10.gaanacdn.com/gn_img/artists/zLp36v3rGe/Lp36BL5v3r/size_l_1720183611.webp"
+          class="rounded-circle circle-image" alt="">
+        <p class="pp">Darshan Raval</p>
+      </div>
+
+      <div class="col-md-2">
+        <img src="https://a10.gaanacdn.com/gn_img/artists/Dk9KNk23Bx/k9KNqJJbBx/size_l_1716815348.webp"
+          class="rounded-circle circle-image" alt="">
+        <p class="pp">Arijit Singh</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <h3 class="footer1">Bas Bajna Chahiye Gaana</h3>
+    <h6 class="footer2">Gaana is your gateway to the best and latest in music, offering over 30 million songs across
+      diverse languages including Hindi, English, Bollywood, and regional tracks. Stream your favourite Hindi songs,
+      Bollywood music, English MP3 songs, radio, podcast and regional music online or download songs to enjoy anytime,
+      anywhere!</h6>
+  </div>
+  <hr>
+  <div class="keep">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2 last">
+          <h6 class="hh">KEEP IN TOUCH</h6>
+          <img src="https://a10.gaanacdn.com/images/section/facebookIcon_1706769881.svg" class="rounded-circle keep2"
+            alt="">
+          <img src="https://a10.gaanacdn.com/images/section/twitter-icon_1706769822.svg" class="rounded-circle keep2"
+            alt="">
+        </div>
+
+        <div class="col-md-2">
+          <h6 class="hh">EXPERIENCE APP</h6>
+          <img src="https://a10.gaanacdn.com/images/section/playStoreIcon_1705994070.svg" class="rounded-circle keep2"
+            alt="">
+          <img src="https://a10.gaanacdn.com/images/section/appStoreIcon_1705994098.svg" class="rounded-circle keep2"
+            alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="term">
+    <h6 class="hh hh1">TERMS OF USE</h6>
+    <h6 class="hh hh2">PRIVACY POLICE</h6>
+    <h6 class="hh hh2">ABOUT US</h6>
+    <h6 class="hh hh2">FAQ</h6>
+  </div>
+
+  <hr>
+  <p class="py"> © Entertainment Network India Ltd. 2024, All Rights Reserved</p>
+</body>
+</html>
